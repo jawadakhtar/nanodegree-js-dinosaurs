@@ -118,6 +118,7 @@ Human.prototype.constructor = Human;
 let Dinasours = [];
 
 //fetching Dinasours from JSON file
+//https://knowledge.udacity.com/questions/369202
 fetch('./dino.json')
 .then(response => response.text())
 .then(json => {
