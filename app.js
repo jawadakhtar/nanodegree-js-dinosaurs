@@ -127,7 +127,7 @@ fetch('./dino.json')
     
     for(let i=0; i < jsonObject.Dinos.length; i++)
     {
-        const dino8 = new Dinasour(
+        const newDino = new Dinasour(
             jsonObject.Dinos[i].species,
             jsonObject.Dinos[i].weight,
             jsonObject.Dinos[i].height,
@@ -137,7 +137,7 @@ fetch('./dino.json')
             jsonObject.Dinos[i].fact
             );
 
-        Dinasours.push(dino8);
+        Dinasours.push(newDino);
     }
 });
 
